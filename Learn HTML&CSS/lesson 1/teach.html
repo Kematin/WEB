@@ -1,0 +1,223 @@
+<div class='start'>
+  <p>Параграф</p>
+  <h1>Заголовок</h1>
+  <p><b>Подчеркнутый текст</b></p>
+  <p><i>Текст в курсиве</i></p>
+
+  <ul>
+    <li>Первый элемент списка булево</li>
+    <li>Второй элемент списка булево</li>
+    <li>Третий элемент списка булево</li>
+  </ul>
+
+  <ol>
+    <li>Первый элемент пронумированного списка</li>
+    <li>Второй элемент пронумированного списка</li>
+    <li>Третий элемент пронумированного списка</li>
+  </ol>
+
+  <ol>
+    <li>Первый элемент списка
+      <ul>
+        <li>Первый элемент под списка</li>
+        <li>Второй элемент под списка</li>
+        <li>Третий элемент под списка</li>
+      </ul>
+    </li>
+    <li>Купить в магазине:
+      <ul>
+        <li>Хлеб</li>
+        <li>Молоко</li>
+        <li>Масло Сливочное</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+
+<!--
+Тег <table>. Определяет границу таблицы.
+Тег <tr>. Создание строки.
+Тег <td>. Создание ячейки.
+Тег <th>. Создание ячейки с заголовком.
+-->
+
+<div class='Table_Tech'>
+  <table>
+    <!-- Блок с заголовками -->
+    <thead>
+      <!-- Первая строка -->
+      <tr>
+        <th>Первая ячейка</th>
+        <th>Вторая яейка</th>
+        <th>Третья ячейка</th>
+      </tr>
+    </thead>
+
+    <!-- Тело таблицы -->
+    <tbody>
+      <!-- Вторая строка -->
+      <tr>
+        <td>Первая ячейка</td>
+        <td>Вторая ячейка</td>
+        <td>Третья ячейка</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<div class='Work_with_table', align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Основа</th>
+        <th>Два</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>First</td>
+        <td>Second</td>
+      </tr>
+
+      <tr>
+        <td>First</td>
+        <td>Second</td>
+      </tr>
+    </tbody>
+
+  </table>
+</div>
+
+
+<!-- 
+Объеденение ячеек 
+Поможет атрибут colspan
+-->
+<div, class='2_to_1'>
+  <table>
+    <thead>
+      <tr>
+        <th>Продукт</th>
+        <th>Кол-во</th>
+        <th>Цена</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Куринное мясо</td>
+        <td>5 кг</td>
+        <td>200р за кг</td>
+      </tr>
+
+      <tr>
+        <td>Чай</td>
+        <td colspan="2">Нет на складе</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<div>
+  <p>
+    Спец символы:
+    &clubs;
+    &nbsp;
+    &spades;
+    &nbsp;
+    &hearts;
+    &nbsp;
+    &diams;
+  </p>
+
+  <div>
+    &laquo; и &raquo; - стандартные кавычки
+  </div>
+
+  <div>
+    &mdash; - длинное тире
+    &lt;p&gt; такая разметка не будет обработана как параграф &lt;/p&gt;
+  </div>
+</div>
+
+
+
+<!--
+HREF in text 
+-->
+<div class="all_urls">
+  <a href='https://github.com/Kematin'>Some Site</a>
+
+  <ul>Follow me on
+    <li>
+      <a href="https://www.youtube.com/channel/UCl7iXtUkWgJsLgZgovCBChg">YouTube</a>
+    </li>
+    <li>
+      <a href="https://github.com/Kematin">GitHab</a>
+    </li>
+    <li>
+      <a href="https://vk.com/kematin">VK</a>
+    </li>
+  </ul>
+
+  <!-- Href to some page on site -->
+  <a href="#anchor">Go to some page</a>
+
+  <div id = 'anchor'>Some page
+      <h2>Some text</h2>
+  </div>
+</div>
+
+
+<!--
+  tags and atribute
+-->
+
+<div>
+
+  <!-- tag <pre></pre> for specifical text -->
+  <pre>
+    Вы ушли,
+        как говорится,
+                      <b>в мир в иной</b>.
+Пустота...
+        Летите,
+              в звезды врезываясь.
+Ни тебе аванса,
+              <i>ни пивной</i>.
+Трезвость.
+  </pre>
+
+  <!-- <code></code> to insert code from different languages-->
+  <code>
+    <<span>p</span>>Вставляем тег p в виде простого текста <<span>/p</span>>
+  </code>
+
+  <!-- src to set image
+  <img src="some image.jpg"> -->
+
+  <!-- alt if image crack -->
+  <p> </p>
+  <img src="error file", alt="Image of a cat">
+
+  <!-- width and height to determine the size of the image -->
+  <p> </p>
+  <img src="some image.jpg", alt="cat", width="100", height="100">
+
+
+  <!-- AUDIO PLAYER -->
+  <audio controls>
+    <source src="water.mp3">
+  </audio>
+
+  <!-- Video -->
+  <video width="320", height="240", controls>
+    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+  </video>     
+
+</div>
