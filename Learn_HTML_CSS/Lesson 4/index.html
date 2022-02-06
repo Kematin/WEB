@@ -25,5 +25,25 @@
         </p>
         <p><button type="submit", style='color:blue'>Send</button></p>
     </form>
+    <form action="">
+        <p>
+            <label for="price">Price: </label>
+            <input id='price', type="number", list='pricelist', step='1000', min='0', max='1000000'>
+        </p>
+        <p><button type="reset">Reset</button></p>
+    </form>
+    <datalist id="pricelist">
+        <option value="2500"></option>
+        <option value="3500"></option>
+        <option value="4500"></option>
+    </datalist>
+    <!-- Range -->
+    <form action="">
+        <p>
+            <label for="price">Price: </label>
+            1<input id="price" type="range">10000
+        </p>
+        <p><button type="submit">Send</button></p>
+    </form>
 </body>
 </html>
