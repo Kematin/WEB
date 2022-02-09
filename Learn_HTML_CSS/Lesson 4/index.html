@@ -58,5 +58,64 @@
         <p><input type="radio", value='man', name='gender', checked>Man</p>
         <p><input type="radio", value='woman', name='gender'>Woman</p>
     </form>
+    <!-- input elements (url, color, etc) -->
+    <form>
+        <!-- url -->
+        <p>
+            <label for="get_url">URL: </label>
+            <input id="get_url" type="url", name='url', pattern='www'>
+        </p>
+        <!-- email -->
+        <p>
+            <label for="get_email">Email: </label>
+            <input id="get_emal" type="email", placeholder='user@gmail.com', name='email'>
+        </p>
+        <!-- tel -->
+        <p>
+            <label for="get_tel">Telephone: </label>
+            <input id="get_tel" type="tel", placeholder='+X(XXX)-XXX-XXXX', maxlength='11', required>
+        </p>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+    </form>
+    <!-- set color -->
+    <p>
+        <label for="set_color">Set color: </label>
+        <input id="set_color" type="color", list='colors'>
+    </p>
+    <datalist id="colors">
+        <option value="#ff0000", label='red'></option>
+        <option value="#0000FF", label='blue'></option>
+        <option value="#008000", label='green'></option>
+    </datalist>
+    <!-- date -->
+    <form>
+        <!-- Date -->
+        <p>
+            <label for="birthday">Your birthday: </label>
+            <input id="bitrhday" type="date">
+        </p>
+    </form>
+    <form>
+        <!-- Week -->
+        <p>
+            <label for='week'>Week: </label>
+            <input id= 'week', type="week">
+        </p>
+    </form>
+    <form>
+        <!-- Time -->
+        <p>
+            <label for='time'>Time: </label>
+            <input id='time', type="time">
+        </p>
+    </form>
+    <form>
+        <!-- Month -->
+        <p>
+            <label for='month'>Month:  </label>
+            <input id='month', type="month">
+        </p>
+    </form>
 </body>
 </html>
